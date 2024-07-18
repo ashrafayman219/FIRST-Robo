@@ -1,0 +1,19 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#mapContainer {
+  width: 80%;
+  height: 80%;
+  max-width: 1200px;
+  max-height: 800px;
+  display: flex;
+}
+#viewDiv {
+  flex: 1;
+}
